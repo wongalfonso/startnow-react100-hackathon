@@ -1,0 +1,81 @@
+header {
+    background-color: #333333;
+    margin-top: 2em;
+    border-bottom: dotted white;
+    border-top: dotted white;
+}
+h1, .h4 {
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: center;
+    color: white
+}
+
+body {
+    background-color: lightgrey
+}
+header {
+    margin-bottom: 1.5em;
+}
+.panelHeader {
+    text-align: Center;
+    text-decoration: bold;
+}
+#searchZIP, #searchCity, #searchName {
+    margin-top: .3em;
+}
+#number {
+    text-align: center;
+    font-weight: bold;
+}
+.icon {
+    width: 14em;
+    text-align: center;
+}
+.list-group-item {
+    height: 6em;
+    text-align: center;         
+}
+.descText {   
+    padding-top: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    
+}
+.descText2 {   
+    padding-top: .5em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    
+}
+.listText{
+    font-weight: bold;
+    color: black;
+    top: 14px;
+}
+.showDesc {
+    height: auto !important;
+}
+.web {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: blue;
+}
+#radius {
+    text-align: center;
+    margin-top: 2em;
+}
+.map {
+    position: relative;
+}
+#submit {
+    margin-top: 2em;
+}
+.table, .list-group {
+    background-color: white;    
+    border: solid #333333;
+    border-radius: 8px;
+}
+
