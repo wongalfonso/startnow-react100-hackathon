@@ -25,14 +25,16 @@ export const ShowList = ({ showDesc, closeDesc, number, id, name, iconImages, me
   }
 
   const descList = () => {
+   
     return (
       <li className="list-group-item showDesc">
         <div className="descText"><img src={mediumImages} /></div>
         <div className="descText"><h3>{name}</h3></div>
         <div className="descText" ><p>{description}</p>
           <p className="descText2">Location Type:  {locationType}</p>
-          <p className="descText2">Address {address}</p>
+          <p className="descText2">Address: {address}</p>
           <p className="descText2">Phone Number: {phoneNumber}</p>
+          <p><a href={"https://maps.google.com/?q=" + lat +"," + long} className="web">go to google maps</a></p>
           <a href={website} className="web">{website}</a>
           <button className="btn btn-block btn-link" onClick={close}><h4>Close</h4></button>
         </div>
