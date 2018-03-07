@@ -46,7 +46,7 @@ class App extends Component {
     axios.get("http://api.brewerydb.com/v2/"+search+"&key="+key)
     .then(response => {
       console.log(response.data.data)
-      // console.log(response.data.totalResults)
+      console.log(response.data.totalResults)
       this.setState({
         data: response.data.data,
         currentPages: response.data.currentPage,

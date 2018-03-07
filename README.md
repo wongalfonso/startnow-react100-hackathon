@@ -7,6 +7,6 @@ devDependecies:
   babel-preset-react,
   babel-preset-stage-0
 
-
+If running from localhost, you need a cross origin plugin, You can achieve this by using postman, installing CORS or bypassing your security from Chrome.
   Npm install and begin to search for your new favorite Brewery! 
 
